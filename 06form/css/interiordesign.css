@@ -94,7 +94,7 @@ main a{
 main a:hover{
     color: #82b7f7;
 }
-figure.wrapped {
+.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
     float: right;
