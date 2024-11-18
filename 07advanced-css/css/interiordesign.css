@@ -155,6 +155,7 @@ main a:hover {
 .teamHero {
     width: 100%;
     height: auto;
+    margin: 0;
 }
 .teamHero img, .image-right img {
     width: 100%;
