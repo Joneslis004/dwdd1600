@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTD-8">
+    <meta name="description" content="Your ultimate resource for Interior Design tips and tricks!">
+    <meta name="author" content="Lisette Jones">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="interiordesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+<title>Interior Design 101: Home</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images/logo.png" alt="logo">
+       <h1>Interior Design 101</h1>
+       <p>Your Ultimate Tips and Tricks</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Interior Design History</a></li>
+            <li><a href="about.html">Tips and Tricks</a></li>
+            <li class="active"><a href="bookme.html">Book Me</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    
+     <!-- start the page main -->
+    <main>
+        <h1>Book Me</h1>
+        
+        <form method="get" class="myForm" action="thanks.html">
+            
+            <fieldset>
+            <legend>How many Rooms?</legend>
+            <label><input type="radio" name="method" value="drone">One</label>
+            <label><input type="radio" name="method" value="cycle">Two</label>
+            <label><input type="radio" name="method" value="robot">Three+</label>
+            </fieldset>
+        
+            <fieldset>
+            <legend>What is the Aesthetic you are wanting?</legend>
+            <label><input type="checkbox" name="porch" value="chosen">Boho</label>
+            <label><input type="checkbox" name="deck" value="chosen">Classy</label>
+            <label><input type="checkbox" name="driveway" value="chosen">Modern</label>
+            <label><input type="checkbox" name="garage" value="chosen">Grandma Chic</label>
+                
+            <label>Good time for a call
+             <select name="time">
+                <option value="none">Please Select</option>
+                 <option value="monday">Monday</option>
+                 <option value="tuesday">Tuesday</option>
+                 <option value="wednesday">Wednesday</option>
+                 <option value="thursday">Thursday</option>
+                </select>   
+                </label>
+            </fieldset>
+            
+             <fieldset>
+                <legend>Customer Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            <label>Email*<input type="text" name="email" required></label>
+            </fieldset>
+            
+            <label>Comments
+            <textarea name="comments">Please describe the layout and exact dimensions of each specific room</textarea>
+            </label>
+            
+            <input type="submit" value="Book Me">
+        </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+    <p>&copy;2024 &bull; Lisette Jones &bull; <a href="mailto:joneslis004@gmail.com">Email Us</a></p>
+    </footer>
+</body>
+</html>
