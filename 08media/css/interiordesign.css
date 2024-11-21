@@ -160,6 +160,15 @@ main a:hover {
     height: auto;
     margin: 0;
 }
+.image-right {
+    float: right;
+    margin: 0 0 0 2vw;
+    width: 33%;
+}
+.image-right figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
 figure.wrapped {
     width: 30%;
     margin: 0 0 0 2%;
